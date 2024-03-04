@@ -20,20 +20,23 @@ code {
   align-content: center;
 }
 .p{
-  font-size: 50px;
+  font-size: 60px;
+  font-weight: bold;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 .positive{
-  font-size: 50px;
+  font-size: 60px;
+  font-weight: bold;
   display: flex;
   flex-direction: row;
   justify-content: center;
   color: green;
 }
 .negative{
-  font-size: 50px;
+  font-size: 60px;
+  font-weight: bold;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -43,8 +46,9 @@ button{
   margin: 20px;
   border: none;
   border-radius: 50%;
-  font-size: 30px;
+  font-size: 40px;
   padding: 10px;
   color: white;
-  background-color: lightblue;
+  background-color: blue;
+  width: 50px;
 }
