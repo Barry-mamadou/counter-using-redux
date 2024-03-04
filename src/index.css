@@ -19,11 +19,25 @@ code {
   align-items: center;
   align-content: center;
 }
-p{
+.p{
   font-size: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.positive{
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: green;
+}
+.negative{
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: red;
 }
 button{
   margin: 20px;

@@ -7,7 +7,7 @@ const Counter = ()=>{
   const dispatch = useDispatch()
 
   return(<div>
-  <p>{count}</p>
+  <p className={count < 0? "negative": count > 0? "positive": "p"}>{count}</p>
   <button onClick={()=>dispatch(decrement())}>-</button>
   <button onClick={()=>dispatch(increment())}>+</button>
   </div>)
